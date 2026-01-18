@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="./style/style.css">
+   <link rel="stylesheet" href="./responsive/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>TechWave</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img src="./assets/TechWave.png" alt="TechWave Logo">
-            <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Episode">Episode</a></li>
-                <li><a href="#Host">Host</a></li>
-            </ul>
-            <button>Subscribe</button>
+        <nav class="container flex navbar" >
+                 <img class="nav-logo"src="./assets/TechWave.png" alt="TechWave Logo">
+                 <ul class="flex">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Episode">Episodes</a></li>
+                    <li><a href="#Host">Host</a></li>
+                 </ul>
+                 <button class="btn flex nav-btn">
+                    Subscribe <img style="background-color:none;"src="./assets/right-arrow.png" alt="">
+                </button>
+                <div class="hamburger display-none">
+                     <img src="./assets/hamburger-menu.png">  
+                </div>
+               
         </nav>
+
+        <section class="banner">
+
+        </section>
     </header>
 
     <main>
