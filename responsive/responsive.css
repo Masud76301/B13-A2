@@ -1,5 +1,6 @@
 @media screen and (max-width:576px) {
    .navbar{
+       width:90%;
        margin:0px 20px;
    }
    .nav-logo{
@@ -16,4 +17,46 @@
     .hamburger{
         display: inline;
     }
+
+    /* Banner Style */
+    .banner{
+        width:100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position:0px 95px;
+    }
+    .hero-circle{
+        height:185px;
+        left: 25%;
+    }
+    .circle{
+        width:185px;
+        
+    }
+
+    .mic{
+        width:44px;
+        left:42.5%;
+        top:33%;
+    }   
+
+   
+  .tooltip{
+    font-size: 15px;
+    font-size: 600;
+    padding:6px 15px;
+    left: 60%;
+    top:3%;
+  }
+
+  .hero-details{
+    width:90%;
+    left:0%;
+}
+.hero-details h1{
+    font-size:38px;
+}
+
+
+    
 }

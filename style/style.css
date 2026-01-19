@@ -15,11 +15,14 @@ body{
     margin:0 auto;
 }
 .heading{
-
+    font-size:45px;
+    font-weight:bold;
 }
 
 .para{
-
+    font-size:14px;
+    font-weight:400;
+    opacity: 80%;
 }
 .flex{
     display:flex;
@@ -65,6 +68,66 @@ nav button{
 
 /* Banner Style */
 .banner{
-    border-top:1px solid #412567;
+    background-image:url('../assets/hero-bg.png');
+    height:710px;
+    text-align: center;
+    padding:95px 0px;
 }
 
+.hero-circle{
+    position:relative;
+    left:42%;
+    width:330px;
+    margin-bottom: 40px;
+}
+
+.mic{
+    position: absolute;
+    top:25%;
+    left:38%;
+    width:110px;  
+}
+
+.tooltip{
+    background-color:#00FF88;
+    color:#1A0B2E;
+    font-size: 17px;
+    font-size: 600;
+    padding:8px 16px;
+    border-radius: 10000px;
+    position: absolute;
+    left: 75%;
+    top:3%;
+}
+.hero-details{
+    max-width:550px;
+    margin:0px auto;
+    position:relative;
+    left:3.5%;
+}
+
+.hero-details h1{
+    font-size:56px;
+    font-weight:bolder;
+    margin-bottom:8px;
+
+}
+
+.hero-btn{
+    justify-content: center;
+    gap:8px;
+    margin-top:24px;
+}
+
+.listen-btn,.message-btn{
+    align-items: center;
+    gap:8px;
+    flex-direction: row;
+
+}
+
+.message-btn{
+    background:transparent;
+    border:1px solid #00FF88;
+    color:#00FF88;
+}
