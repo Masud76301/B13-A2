@@ -23,7 +23,9 @@
         width:100%;
         background-size: contain;
         background-repeat: no-repeat;
-        background-position:0px 95px;
+        background-position:0px 35px;
+        padding:38px 0px;
+
     }
     .hero-circle{
         height:185px;
@@ -51,12 +53,35 @@
 
   .hero-details{
     width:90%;
-    left:0%;
+    left:3.5%;
 }
 .hero-details h1{
     font-size:38px;
 }
 
+/* About Section Style */
+ .about{
+    width:90%;
+    margin:0px 20px;
+    padding:38px 0px;
+    left:3.5%;
 
-    
+ }   
+.about-cards{
+     grid-template-columns: repeat(2,1fr);
+     gap:38px;
+     flex-wrap: wrap;
+}
+
+.card h1{
+    font-size: 38px;
+}
+
+
+
+
+
+
+
+
 }

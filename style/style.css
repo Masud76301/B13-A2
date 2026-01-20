@@ -69,7 +69,7 @@ nav button{
 /* Banner Style */
 .banner{
     background-image:url('../assets/hero-bg.png');
-    height:710px;
+  
     text-align: center;
     padding:95px 0px;
 }
@@ -98,6 +98,7 @@ nav button{
     position: absolute;
     left: 75%;
     top:3%;
+    animation:color 3s infinite ease-in-out;
 }
 .hero-details{
     max-width:550px;
@@ -130,4 +131,45 @@ nav button{
     background:transparent;
     border:1px solid #00FF88;
     color:#00FF88;
+}
+
+@keyframes color{
+    0%{background-color:#00FF88}
+    50%{background-color:#FB09B4;transform:scale(1.05,1.05);}
+    100%{background-color:#00FF88}
+}
+
+/* About Section Style */
+
+.about{
+    padding:46px 0px;
+    text-align: center; 
+}
+.about-details{
+    position:relative;
+    left:3.5%;
+}
+.about-details h1{
+    margin-bottom:15px;
+}
+
+.about-cards{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-content: space-between;
+   
+}
+.card h1{
+    color:#00FF88;
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom:15px;
+    text-align: center;
+    line-height: 55px;
+    height:auto;
+}
+.card p{
+    text-transform:uppercase;
 }
