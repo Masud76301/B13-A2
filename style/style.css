@@ -69,16 +69,17 @@ nav button{
 /* Banner Style */
 .banner{
     background-image:url('../assets/hero-bg.png');
-  
+    background-position:-39px 0px;
     text-align: center;
     padding:95px 0px;
 }
 
 .hero-circle{
     position:relative;
-    left:42%;
+    left:38.5%;
     width:330px;
     margin-bottom: 40px;
+    
 }
 
 .mic{
@@ -103,8 +104,6 @@ nav button{
 .hero-details{
     max-width:550px;
     margin:0px auto;
-    position:relative;
-    left:3.5%;
 }
 
 .hero-details h1{
@@ -144,10 +143,11 @@ nav button{
 .about{
     padding:46px 0px;
     text-align: center; 
+    left:3.5%;
 }
 .about-details{
     position:relative;
-    left:3.5%;
+  
 }
 .about-details h1{
     margin-bottom:15px;
@@ -161,7 +161,7 @@ nav button{
     justify-content: space-between;
    
 }
-.card h1{
+.about-cards .card h1{
     color:#00FF88;
     font-size: 46px;
     font-weight: 900;
@@ -170,6 +170,112 @@ nav button{
     line-height: 55px;
     height:auto;
 }
-.card p{
+.about-cards .card p{
     text-transform:uppercase;
+}
+
+/* Choose Section Style */
+
+.choose{
+    background-color:#230E3D;
+    padding:110px 0px;
+}
+.choose-content h1{
+    text-align: center;
+    margin-bottom:38px;
+}
+
+.choose-grid > div{
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding:40px;
+    background-color:rgba(53, 17, 101, 0.4);
+    gap:15px;
+    border-radius: 38px;
+}
+
+.choose-grid > div>h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.choose-grid > div>p{
+    opacity: .6;
+}
+
+.choose-grid img{
+    width:50px;
+}
+
+.choose-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:28px;
+}
+
+.choose1{
+    grid-column: span 1;
+    grid-row:span 2;
+}
+
+.choose2{
+    grid-column: span 2;
+    grid-row:span 1;
+}
+
+.choose3{
+    grid-column: span 2;
+    grid-row:span 1;
+}
+.choose4{
+    grid-column: span 2;
+    grid-row:span 1;
+}
+
+
+/* featured Section Style */
+
+.featured{
+    padding:110px 0px;
+}
+
+.featured h1{
+    text-align: center;
+    margin-bottom: 38px;
+}
+.featured-card{
+    justify-content: space-between;
+    
+}
+.featured .featured-card .card{
+    width:355px;
+    border-radius:24px;
+    background-color:#250D44;
+}
+.featured .featured-card .card iframe{
+    width:100%;
+    border-radius:24px 24px 0px 0px;
+}
+
+.featured-card h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom:12px ;
+}
+
+.featured-card p{
+    margin:12px 0px;
+    opacity: .6;
+}
+
+.featured-card .time{
+    gap:8px;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+    color:#00FF88;
+    opacity:1;
+
 }

@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
    .navbar{
        width:90%;
-       margin:0px 20px;
+       margin:0px auto;
    }
    .nav-logo{
         width:137px;
@@ -29,7 +29,7 @@
     }
     .hero-circle{
         height:185px;
-        left: 25%;
+        left: 23%;
     }
     .circle{
         width:185px;
@@ -53,7 +53,7 @@
 
   .hero-details{
     width:90%;
-    left:3.5%;
+    
 }
 .hero-details h1{
     font-size:38px;
@@ -62,9 +62,9 @@
 /* About Section Style */
  .about{
     width:90%;
-    margin:0px 20px;
+    margin:0px auto;
     padding:38px 0px;
-    left:3.5%;
+
 
  }   
 .about-cards{
@@ -77,6 +77,42 @@
     font-size: 38px;
 }
 
+
+/* Choose Section Style */
+
+.choose-content{
+     width:90%;
+    margin:0px auto;
+}
+
+.choose-grid{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.choose1,.choose2,.choose3,.choose4,.choose5{
+    grid-column: span 1;
+    grid-row:span 1;
+}
+
+/* featured Section Style */
+
+.featured{
+    width:90%;
+    margin:0px auto;
+}
+
+.featured-card{
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+   
+    
+}
+.featured .featured-card .card{
+    width:100%;
+   
+   
+}
 
 
 
