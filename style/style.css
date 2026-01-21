@@ -205,7 +205,7 @@ nav button{
 }
 
 .choose-grid img{
-    width:50px;
+    width:4 0px;
 }
 
 .choose-grid{
@@ -278,4 +278,72 @@ nav button{
     color:#00FF88;
     opacity:1;
 
+}
+
+/* Host Section Style  */
+
+.host{
+    text-align: center;
+}
+.host-content{
+    margin-top: 38px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 38px;
+    padding:38px;
+}
+.host-content{
+    gap:22px;
+    align-items: center;
+    text-align:start;
+}
+.host-content h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.host-content p{
+    opacity: .6;
+}
+.social-icon{
+    align-items: center;
+    gap:10px;
+    margin-top: 15px;
+}
+
+.social-icon>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(83, 60, 114, 1);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;  
+}
+
+
+/* footer style */
+
+footer .footer-content{
+    margin-top:120px;
+    background-image: url('../assets/footer-bg.png');
+    background-position: -50px 0px;
+    text-align: center;
+    padding: 110px;
+}
+
+.footer-social-icon{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    margin:50px auto;
+
+
+}
+.footer-social-icon img{
+    margin-right:8px;
+}
+
+.footer-content p{
+    opacity: .6;
 }

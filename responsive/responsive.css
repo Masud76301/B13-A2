@@ -4,8 +4,8 @@
        margin:0px auto;
    }
    .nav-logo{
-        width:137px;
-        height:20px;
+        width:178px;
+        height:26px;
    }
     nav ul a{
         display:none;
@@ -114,6 +114,46 @@
    
 }
 
+/* Host Section Style  */
+
+
+.host{
+    width:90%;
+    margin:0px auto;
+}
+.host-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social-icon{
+    justify-content: center;
+}
+
+
+/* footer style */
+
+footer .footer-content{
+    background-color:rgba(57, 18, 109, 0.3);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: 0px 30px;
+    height: 248px;
+    padding: 40px 120px;
+
+}
+.footer-logo img{
+    width:219px;
+    height:32px;
+}
+
+.footer-social-icon{
+    gap:25px;
+    margin:25px auto;
+
+
+}
 
 
 
